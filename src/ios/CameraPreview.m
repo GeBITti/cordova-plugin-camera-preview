@@ -515,7 +515,7 @@
 }
 
 - (void) invokeTakePicture {
-  [self invokeTakePicture:0.0 withHeight:0.0 withQuality:85];
+  [self invokeTakePicture:0.0 withHeight:0.0 withQuality:100];
 }
 
 - (void) invokeTakePicture:(CGFloat) width withHeight:(CGFloat) height withQuality:(int) quality{
